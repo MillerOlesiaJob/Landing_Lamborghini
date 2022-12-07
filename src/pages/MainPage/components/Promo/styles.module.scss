@@ -1,0 +1,36 @@
+.promo {
+  background-image: url("../../../../assets/promo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.promoInner {
+  min-height: 100vh;
+  text-align: center;
+
+  h1 {
+    font-size: 66px;
+    letter-spacing: 0.02em;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 59px;
+    border-bottom: 1px solid #040404;
+
+    span {
+      font-size: 34px;
+      line-height: 34px;
+      color: #9F6B08;
+      display: block;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #363636;
+  }
+}
+

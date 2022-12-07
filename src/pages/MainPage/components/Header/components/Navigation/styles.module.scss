@@ -1,0 +1,23 @@
+.headerNavigation {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    gap: 0 40px;
+    list-style: none;
+    padding-top: 25px;
+
+    &:first-child {
+      padding-left: 25px;
+    }
+
+    &:last-child {
+      padding-right: 80px;
+    }
+
+    a {
+      color: #363636;
+    }
+  }
+}
